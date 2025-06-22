@@ -1,0 +1,12 @@
+{
+    "name": "Momentum",
+    "description": "A new Chrome extension for a new Momentum tab page.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+} 
